@@ -75,10 +75,13 @@ jobs:
 
           EOF
 
-      - name: Änderungen committen
+            - name: Änderungen committen
         run: |
           git config --global user.name "RSS Bot"
           git config --global user.email "rssbot@example.com"
           git add news.json
           git commit -m "RSS Update" || echo "Keine Änderungen"
-          git push
+
+      - name: Änderungen pushen (force)
+        run: |
+          git push --force
