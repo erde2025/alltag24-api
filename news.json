@@ -1,0 +1,10 @@
+{
+  "articles": [
+    {
+      "title": "API erfolgreich verbunden",
+      "description": "Dies ist ein Testeintrag, um sicherzustellen, dass Webador die GitHub-API akzeptiert.",
+      "url": "https://www.alltag24.de",
+      "image": "https://www.alltag24.de/logo.png"
+    }
+  ]
+}
