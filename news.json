@@ -1,8 +1,177 @@
 [
   {
-    "title": "API erfolgreich verbunden",
+    "title": "God of War: In Laufey wird Kratos' Frau zur neuen Heldin",
+    "date": "Wed, 03 Ju",
+    "text": "Kratos tritt in den Hintergrund: Das nächste God of War macht erstmals seine Frau Faye zur Hauptfigur und erzählt ihre Geschichte nach dem Tod. (<a href=\"https://www.golem.de/specials/god-of-war/\">God of War</a>, <a href=\"https://www.golem.de/specials/sony/\">Sony</a>) <img alt=\"\" height=\"1\" src=\"htt",
+    "category": "Elektronik",
+    "image": ""
+  },
+  {
+    "title": "Gewitter beschädigt Kunstinstallation an der Pont Neuf",
+    "date": "Tue, 02 Ju",
+    "text": "Starker Wind hat die Kunstinstallation \"La Caverne du Pont Neuf\" in Paris beschädigt. Die Hommage an die Künstler Christo und Jeanne Claude sollte am Samstag öffnen. Daraus wird nun nichts. Von Sabine Bohland und Cai Rienäcker.",
+    "category": "Politik",
+    "image": ""
+  },
+  {
+    "title": "Britische Polizei unter Druck im Fall eines getöteten Studenten",
+    "date": "Tue, 02 Ju",
+    "text": "Ende 2025 stirbt ein britischer Student nach einem Messerangriff auf der Straße - im Beisein von Polizisten. Diese hatten Täter und Opfer verwechselt. Der Fall bewegt Großbritannien - und Rechte versuchen, die Tat politisch auszuschlachten. Von Gabi Biesinger.",
+    "category": "Politik",
+    "image": ""
+  },
+  {
+    "title": "USA führen freiwilligen Sicherheitstest für neue KI-Modelle ein",
+    "date": "Tue, 02 Ju",
+    "text": "Kehrtwende in Trumps Umgang mit KI: Wollte der US-Präsident zuvor nicht in die Branche eingreifen, führt er nun per Erlass einen freiwilligen Sicherheitstest neuer Modelle durch die US-Regierung ein.",
+    "category": "Politik",
+    "image": ""
+  },
+  {
+    "title": "Die erwarteten Mega-Börsengänge des Jahres an der Wall Street",
+    "date": "Tue, 02 Ju",
+    "text": "Nach dem Raumfahrtkonzern SpaceX hat nun auch das KI-Schwergewicht Anthropic einen Börsengang in den USA beantragt. Daneben wollen auch weitere namhafte Kandidaten aufs Parkett. Ein Überblick.",
+    "category": "Politik",
+    "image": ""
+  },
+  {
+    "title": "Marktbericht: KI-Hype schlägt Iran-Sorgen",
+    "date": "Tue, 02 Ju",
+    "text": "Die ungebrochene Euphorie rund um Künstliche Intelligenz hat an der Börse einmal mehr die Unsicherheit wegen des Iran-Konflikts überlagert. Der DAX konnte heute moderat zulegen. Die UniCredit erhöht ihren Commerzbank-Anteil weiter.",
+    "category": "Politik",
+    "image": ""
+  },
+  {
+    "title": "Iran-Krieg: Kuwait meldet feindliche Angriffe mit Raketen und Drohnen",
+    "date": "Tue, 02 Ju",
+    "text": "Im amerikanisch-israelischen Krieg gegen den Iran wird Kuwait erneut zum Ziel von Angriffen. Trotz Waffenruhe ist die Luftabwehr im Einsatz. Auch in Bahrain heulen die Sirenen.",
+    "category": "Wirtschaft",
+    "image": ""
+  },
+  {
+    "title": "Streit um Fonds: Nach massiver Kritik: Aus für Trumps Opferfonds",
+    "date": "Tue, 02 Ju",
+    "text": "Trump wollte angebliche Opfer der Justiz entschädigen lassen. Kritiker sahen den geplanten Fonds als Belohnungsinstrument für treue Anhänger des Republikaners. Nun beugt sich die Regierung dem Druck.",
+    "category": "Wirtschaft",
+    "image": ""
+  },
+  {
+    "title": "Steuerreform: DGB: Staat muss Superreiche stärker besteuern",
+    "date": "Tue, 02 Ju",
+    "text": "Wenige Tausend Superreiche besitzen einen Großteil des deutschen Finanzvermögens. Der DGB will sie stärker zur Kasse bitten, um das Gemeinwesen am Laufen zu halten.",
+    "category": "Wirtschaft",
+    "image": ""
+  },
+  {
+    "title": "Mini-Stromer im Überblick: Elektro-Kleinwagen: Diese Modelle lohnen sich für Sparfüchse",
+    "date": "Tue, 02 Ju",
+    "text": "Wer ein günstiges Auto als Neuwagen sucht, landet oft bei Kleinwagen. Das ist auch bei E-Autos so. Sie haben keinen Überblick? - Kein Problem: Hier kommt eine aktuelle Auswahl aus dem Modellangebot.",
+    "category": "Wirtschaft",
+    "image": ""
+  },
+  {
+    "title": "Ehepaare aufgepasst!: Steuerklasse gewechselt: Wird Steuererklärung nun Pflicht?",
+    "date": "Tue, 02 Ju",
+    "text": "Auch wenn Arbeitgeber Lohndaten automatisch ans Finanzamt schicken, bedeutet das nicht, dass Ehepaare damit von der Abgabepflicht ihrer Steuererklärung befreit sind. Ganz im Gegenteil.",
+    "category": "Wirtschaft",
+    "image": ""
+  },
+  {
+    "title": "Microsoft Scout: Always-on-KI-Agent soll Windows-Nutzer unterstützen",
+    "date": "Tue, 02 Ju",
+    "text": "Der auf Openclaw basierende KI-Agent Scout soll nur der erste in einer Reihe neuer Always-on-KI-Agenten in Windows sein. (<a href=\"https://www.golem.de/specials/msbuild2026/\">Microsoft Build 2026</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img alt=\"\" height=\"1\" src=\"https",
+    "category": "Elektronik",
+    "image": ""
+  },
+  {
+    "title": "Projekt Solara: KI-Agenten sollen sich an verschiedene Geräteformen anpassen",
+    "date": "Tue, 02 Ju",
+    "text": "Microsoft möchte die Interaktion von Menschen mit KI-Agenten von Apps entkoppeln und hin zu spezialisierten sprachgesteuerten Geräten entwickeln. (<a href=\"https://www.golem.de/specials/msbuild2026/\">Microsoft Build 2026</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img alt",
+    "category": "Elektronik",
+    "image": ""
+  },
+  {
+    "title": "Weniger Cloudkosten: Microsoft fördert lokale KI-Entwicklung",
+    "date": "Tue, 02 Ju",
+    "text": "Mit einer ganzen Reihe neuer Funktionen will Microsoft Windows 11 zur optimalen Entwicklerplattform für lokale KI-Modelle machen. (<a href=\"https://www.golem.de/specials/msbuild2026/\">Microsoft Build 2026</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img alt=\"\" height=\"1\" s",
+    "category": "Elektronik",
+    "image": ""
+  },
+  {
+    "title": "Für lokale KI-Entwicklung: Microsoft zeigt Desktop-PC mit Nvidia-Spark-Superchip",
+    "date": "Tue, 02 Ju",
+    "text": "Microsoft stellt mit dem Surface Laptop Ultra und der Surface RTX Spark Dev Box zwei Geräte für KI- und Softwareentwickler vor. (<a href=\"https://www.golem.de/specials/msbuild2026/\">Microsoft Build 2026</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img alt=\"\" height=\"1\" src",
+    "category": "Elektronik",
+    "image": ""
+  },
+  {
+    "title": "Hit-Serie \"Off Campus\": Staffel 2 dürfte früher schon starten, als vermutet",
+    "date": "Tue, 02 Ju",
+    "text": "Alles, was Sie über den zweiten Teil der Hitserie \"Off Campus\" von Amazon Prime wissen müssen: von der Besetzung über die Handlung bis zum Erscheinungsdatum.",
+    "category": "Mode",
+    "image": ""
+  },
+  {
+    "title": "Wenn Sie diese Strickweste im Sommer 2026 kaufen, haben Sie schon für den Herbst vorgesorgt",
+    "date": "Tue, 02 Ju",
+    "text": "Das Transferpiece schlechthin? Die Strickweste! Das Oberteil liegt im Sommer im Trend – und ist im Herbst das perfekte Layering-Piece. Besonders dieses Modell.",
+    "category": "Mode",
+    "image": ""
+  },
+  {
+    "title": "Babydoll-Kleider feiern im Sommer 2026 ein großes Comeback",
+    "date": "Tue, 02 Ju",
+    "text": "Von den Laufstegen bis zum Streetstyle: Babydoll-Kleider erobern die Sommerlooks und verleihen der Garderobe einen leichten und verführerischen Touch.",
+    "category": "Mode",
+    "image": ""
+  },
+  {
+    "title": "\"Kaulitz & Kaulitz\", Staffel 3: Das Startdatum steht fest!",
+    "date": "Tue, 02 Ju",
+    "text": "Rund ein Jahr nach Erscheinen der 2. wurde jetzt das Startdatum der 3. Staffel “Kaulitz & Kaulitz” verkündet – die Fans müssen sich nicht mehr lang gedulden!",
+    "category": "Mode",
+    "image": ""
+  },
+  {
+    "title": "5 Schuhtrends aus den 80er-Jahren, die diesen Sommer wieder angesagt sind",
+    "date": "Tue, 02 Ju",
+    "text": "Von zweifarbigen Pumps bis zu Ballerinas: VOGUE verrät, welche 5 Schuhtrends aus den 80er-Jahren diesen Sommer ihr großes Comeback erleben.",
+    "category": "Mode",
+    "image": ""
+  },
+  {
+    "title": "Microsoft Majorana 2 verspricht zuverlässigere Qubits – Skepsis bleibt",
     "date": "2026-06-03",
-    "text": "Dies ist ein Testeintrag, um sicherzustellen, dass Webador die GitHub-API akzeptiert.",
-    "image": "https://via.placeholder.com/600x300.png?text=News"
+    "text": "Microsoft stellt neuen Quantenchip Majorana 2 vor. Das Unternehmen verspricht drastisch verbesserte Stabilität und zieht die Roadmap vor.",
+    "category": "Elektronik",
+    "image": ""
+  },
+  {
+    "title": "Trump gibt sich exklusiven Zugriff auf neue KI vor allen anderen",
+    "date": "2026-06-03",
+    "text": "Geheimes Benchmarking von KI, Zugriff für die US-Regierung vor allen anderen, staatliche Suche nach Software-Bugs. Das und mehr ordnet der US-Präsident an.",
+    "category": "Elektronik",
+    "image": ""
+  },
+  {
+    "title": "Schnellerer Ausbau der Energiewende nützte Europa dreifach",
+    "date": "2026-06-02",
+    "text": "Die EU will bis 2050 klimaneutral werden. Gelingt das früher, winken wirtschaftliche, politische und soziale Vorteile.",
+    "category": "Elektronik",
+    "image": ""
+  },
+  {
+    "title": "Microsoft „Project Solara“: Die Vision der agenten-zentrierten Hardware",
+    "date": "2026-06-02",
+    "text": "Microsofts Project Solara will eine neue Gerätekategorie mit KI-Agenten statt Apps etablieren. Fokus liegt auf dem Business-Bereich.",
+    "category": "Elektronik",
+    "image": ""
+  },
+  {
+    "title": "Werbe-Tracking: Deutsche Ermittler kauften Handydaten",
+    "date": "2026-06-02",
+    "text": "Smartphone-Apps erfassen Standortdaten zu Werbezwecken. Aggregiert verkaufen Händler diese an Interessenten – darunter offenbar auch die deutsche Polizei.",
+    "category": "Elektronik",
+    "image": ""
   }
 ]
