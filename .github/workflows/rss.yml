@@ -1,0 +1,84 @@
+name: RSS Import
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # alle 6 Stunden
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v3
+
+      - name: Python installieren
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: RSS Parser installieren
+        run: pip install feedparser
+
+      - name: RSS Feeds abrufen und news.json erzeugen
+        run: |
+          python3 << 'EOF'
+          import feedparser, json, datetime
+
+          feeds = {
+              "Politik": [
+                  "https://www.tagesschau.de/xml/rss2",
+                  "https://www.zeit.de/politik/index.rss"
+              ],
+              "Wirtschaft": [
+                  "https://www.handelsblatt.com/contentexport/feed/schlagzeilen",
+                  "https://www.tagesschau.de/xml/rss2-wirtschaft"
+              ],
+              "Sachsen": [
+                  "https://www.mdr.de/nachrichten/sachsen/rssfeed.xml"
+              ],
+              "Elektronik": [
+                  "https://www.heise.de/rss/heise-atom.xml",
+                  "https://www.golem.de/rss.php?feed=RSS2"
+              ],
+              "Essen": [
+                  "https://www.essen-und-trinken.de/rss/feed.xml"
+              ],
+              "Mode": [
+                  "https://www.vogue.de/rss/all"
+              ]
+          }
+
+          news = []
+
+          for category, urls in feeds.items():
+              for url in urls:
+                  feed = feedparser.parse(url)
+                  for entry in feed.entries[:5]:  # pro Feed 5 News
+                      news.append({
+                          "title": entry.get("title", "Ohne Titel"),
+                          "date": entry.get("published", datetime.datetime.now().strftime("%Y-%m-%d"))[:10],
+                          "text": entry.get("summary", "")[:300],
+                          "category": category,
+                          "image": ""
+                      })
+
+          # Nach Datum sortieren
+          news = sorted(news, key=lambda x: x["date"], reverse=True)
+
+          # Auf 40 News begrenzen
+          news = news[:40]
+
+          with open("news.json", "w") as f:
+              json.dump(news, f, indent=2, ensure_ascii=False)
+
+          EOF
+
+      - name: Änderungen committen
+        run: |
+          git config --global user.name "RSS Bot"
+          git config --global user.email "rssbot@example.com"
+          git add news.json
+          git commit -m "RSS Update" || echo "Keine Änderungen"
+          git push
